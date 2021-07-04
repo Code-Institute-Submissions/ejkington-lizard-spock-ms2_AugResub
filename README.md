@@ -16,3 +16,8 @@ Rules
 The game is an expansion on the game Rock, Paper, Scissors. Each player picks a variable and reveals it at the same time. The winner is the one who defeats the others. In a tie, the process is repeated until a winner is found. Almost always, the boys will all pick Spock at the same time and tie over and over again.
 
 ##The Program The key idea of this program is to generate random numbers in the range (1-5) and equate them to strings "ROCK", "PAPER", "SCISSORS", "LIZARD", and "SPOCK" to numbers respectively and alot this random string to the computer's choice. It is then compared with the user's choice and declare a winner according to the rules above.
+
+
+##
+Images taken from: unsplash.com
+backround removed from images with remove.bg

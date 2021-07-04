@@ -1,6 +1,6 @@
 # Rock paper scissors lizard Spock game
 
-*Stars, Forks and Pull Requests are welcome :)*
+
 
 The game
 -------

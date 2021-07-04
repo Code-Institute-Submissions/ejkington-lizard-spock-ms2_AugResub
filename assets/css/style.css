@@ -1,0 +1,44 @@
+
+body{
+    background-color: black;
+}
+
+section {
+    background-color: lightgray;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+img {
+    width: 12.5rem;  
+    height: 11.10rem;
+}
+
+.rock {
+    width: 10rem;
+    height: 7rem;
+    
+}
+
+.paper {
+    width: 10rem;
+    height: 7rem;
+}
+
+.scissors {
+    width: 10rem;
+    height: 7rem;
+}
+
+.lizzard {
+    width: 10rem;
+    height: 7rem;
+}
+
+.spock {
+    width: 10rem;
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+

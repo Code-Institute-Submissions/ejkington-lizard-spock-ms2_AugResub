@@ -1,44 +1,91 @@
-
-body{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-section {
-    background-color: lightgray;
-    height: auto;
-    width: auto;
+section{
+    height: 100vh;
+    background-color: darkgrey;
+    font-family: sans-serif;
+}
+
+.score {
+    color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score h2{
+    font-size: 25px;
+}
+
+.score p {
     text-align: center;
+    font-size: 15px;
+    padding: 8px;
 }
 
-img {
-    width: 12.5rem;  
-    height: 11.10rem;
-}
-
-.rock {
-    width: 10rem;
-    height: 7rem;
+.intro{
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     
 }
 
-.paper {
-    width: 10rem;
-    height: 7rem;
+.intro h1{
+    font-size: 55px;
 }
 
-.scissors {
-    width: 10rem;
-    height: 7rem;
+.intro button, .match button{
+    width: 155px;
+    height: 60px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    background-color: darkgreen;
+    border-radius: 5px;
 }
 
-.lizzard {
-    width: 10rem;
-    height: 7rem;
+.match{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    transform: translate(-50, -50);
 }
 
-.spock {
-    width: 10rem;
-    height: 7rem;
-    margin-bottom: 1rem;
+.winner{
+    color: white;
+    text-align: center;
+    font-size: 60px;
 }
 
+.move, .options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    margin-left: 15px;
+}
+
+.user-move{
+    transform: rotateY(180deg);
+}
+
+div.fadeOut{
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn{
+    opacity: 1;
+    pointer-events: all;
+}

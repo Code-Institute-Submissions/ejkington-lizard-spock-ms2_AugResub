@@ -4,44 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock,Paper,Scissors,Lizzard,Spock</title>
 </head>
 <body>
+    <!--Scoreboard section-->
     <section class="game">
         <div class="score">
             <div class="player-score">
                 <h2>You!</h2>
                 <p>0</p>
             </div>
-            <div class="computer-score">
+            <div class="ai-score">
                 <h2>AI!</h2>
                 <p>0</p>
             </div>
         </div>
+    <!--Intro screen before pressing Start button-->
         <div class="intro">
             <h1>Rock Paper Scissor Lizzard Spock</h1>
             <button>Start!</button>
         </div>
 
-        <div class="match">
+        <div class="match fadeOut">
+    
+    <!-- Match section -->
            <h2 class="winner">Choose Your Move!</h2>
          <div class="move">
             <img class="user-move"src="./assets/images/rock.png" alt="rock">
             <img class="ai-move"src="./assets/images/rock.png" alt="rock">
         </div>
         <div class="options">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissors">Scissors</button>
-            <button class="lizzard">Lizzard</button>
-            <button class="spock">Spock</button>
+            <button class="rock">rock</button>
+            <button class="paper">paper</button>
+            <button class="scissors">scissors</button>
+            <button class="lizzard">lizzard</button>
+            <button class="spock">spock</button>
         </div>
         </div>
     </section>
 
-
+    <!--JavaScript-->
 <script src="assets/js/script.js"></script>
 </body>
 </html>

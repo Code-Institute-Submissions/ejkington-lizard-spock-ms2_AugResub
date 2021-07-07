@@ -40,10 +40,10 @@ const game = ()=> {
     
 
             // updating images
-            userMove.src = `assets/images${this.textContent}.png`;
-            aiMove.src = `assets/images${aiMove}.png`;
-        })
-    })
+            userMove.src = "./assets/images/${this.textContent}.png";
+            aiMove.src = "./assets/images/${aiChoice}.png";
+        });
+    });
 };
 
     const compareMove =(userMove, aiMove) =>{
@@ -53,40 +53,62 @@ const game = ()=> {
             winner.textContent = "Tie";
             return;
         }
-        // checking for rock
-        if(userMove === "rock"){
-            if(aiMove === "scissors"){
-                winner.textContent = "User Wins";    
-                return;
-            }else{
-                winner.textContent = "Ai Wins";
-                return; 
-            }
-        }
-        // check for paper 
+        
+        //checking for rock
 
-        if(userMove === "paper"){
-            if(aiMove === "scissors")
-            if(aiMove === "lizzard"){
-                winner.textContent = "Ai Wins";    
-                return;
-            }else{
-                winner.textContent = "User Wins";
-                return; 
-            }
-        }
-        // check for scissors 
-        if(userMove === "scissors"){
-            if(aiMove === "rock")
-            if (aiMove === "spock"){
-                winner.textContent = "Ai Wins";    
-                return;
-            }else{
-                winner.textContent = "User Wins";
-                return; 
-            }
-        }
-    }
+        if (userMove === "rock");
+        if (aiMove === "paper", "spock"){
+        winner.textContent = "You lose."
+            return;
+        }else{
+            winner.textContent = "You win";
+            return;
+        };
+
+        //checking for paper
+
+        if (userMove === "paper");
+        if (aiMove === "scissor", "lizzard"){
+        winner.textContent = "You lose."
+            return;
+        }else{
+            winner.textContent = "You win";
+            return;
+        };
+
+        //checking for scissors
+
+        if (userMove === "scissors");
+        if (aiMove === "spock", "rock"){
+        winner.textContent = "You lose."
+            return;
+        }else{
+            winner.textContent = "You win";
+            return;
+        };
+
+        //checking for spock
+
+        if (userMove === "spock");
+        if (aiMove === "paper", "lizzard"){
+         winner.textContent = "You lose."
+            return;
+        }else{
+            winner.textContent = "You win";
+            return;
+        };
+
+         //checking for lizzard
+
+        if (userMove === "lizzard");
+        if (aiMove === "scissors", "rock"){
+        winner.textContent = "You lose."
+            return;
+        }else{
+             winner.textContent = "You win";
+             return;
+        };
+    };     
 
 // call inner functions
     startGame();

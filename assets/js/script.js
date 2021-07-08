@@ -72,7 +72,7 @@ const updateScore = () => {
         //checking for rock
 
         if (userMove === "rock"){ 
-        if (aiChoice === "scissors" && "lizzard"){
+        if (aiChoice === "scissors" || aiChoice === "lizzard"){
              winner.textContent = "You Win"
             userScore++;
             updateScore();
@@ -87,7 +87,7 @@ const updateScore = () => {
         //checking for paper
 
         if (userMove === "paper"){ 
-        if (aiChoice === "rock" && "spock"){
+        if (aiChoice === "rock" || aiChoice === "spock"){
              winner.textContent = "You Win."
             userScore++;
             updateScore();
@@ -103,7 +103,7 @@ const updateScore = () => {
         //checking for scissors
 
         if (userMove === "scissors"){ 
-        if (aiChoice === "lizzard" && "paper"){
+        if (aiChoice === "lizzard" || aiChoice === "paper"){
              winner.textContent = "You Win."
             userScore++;
             updateScore();
@@ -119,7 +119,7 @@ const updateScore = () => {
         //checking for spock
 
         if (userMove === "spock"){ 
-        if (aiChoice === "scissors" && "rock"){
+        if (aiChoice === "scissors" || aiChoice === "rock"){
              winner.textContent = "You Win."
             userScore++;
             updateScore();
@@ -135,7 +135,7 @@ const updateScore = () => {
          //checking for lizzard
 
         if (userMove === "lizzard"){ 
-        if (aiChoice === "spock" && "paper"){
+        if (aiChoice === "spock" || aiChoice === "paper"){
              winner.textContent = "You Win."
             userScore++;
             updateScore();

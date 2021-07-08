@@ -15,14 +15,19 @@ const game = ()=> {
             match.classList.add("fadeIn");
         });
     };
-// play match
+        // play match
 
     const playMatch = () => {
         const options = document.querySelectorAll (".options button");
-        const userMove = document.querySelector("user-move");
-        const aiMove = document.querySelector("ai-move");
+        const userMove = document.querySelector(".user-move");
+        const aiMove = document.querySelector(".ai-move");
+        const choice = document.querySelectorAll(".move img");
 
-// Ai options
+        
+
+       
+
+        // Ai options
     const aiOptions = ["rock", "paper", "scissors", "lizzard", "spock"];
 
         options.forEach(option =>{
@@ -31,84 +36,118 @@ const game = ()=> {
                 // Ai choice
                 const aiNum = Math.floor(Math.random() * 5);
                 const aiChoice = aiOptions[aiNum];
+                
                 // calling compare moves function
+                setTimeout(() => {
+                compareMove(this.textContent, aiChoice);
+                
+                // updating image
+                 
+                userMove.src =`./assets/images/${this.textContent}.png`;
+                aiMove.src = `./assets/images/${aiChoice}.png`;
+            }, 20);
 
-                compareMove(this.textContent, aiMove);
+                
             
     
-                assets/images
-    
-
-            // updating images
-            userMove.src = "./assets/images/${this.textContent}.png";
-            aiMove.src = "./assets/images/${aiChoice}.png";
         });
     });
 };
 
-    const compareMove =(userMove, aiMove) =>{
+const updateScore = () => {
+    const userScore = document.querySelector(".user-score p");
+    const aiScore = document.querySelector(".ai-score p");
+    userScore.textContent = userScore;
+    aiScore.textContent = aiScore;
+  };
+
+    const compareMove =(userMove, aiChoice) =>{
         // checking for tie
         const winner = document.querySelector(".winner");
-        if(userMove === aiMove){
+        if(userMove === aiChoice){
             winner.textContent = "Tie";
             return;
         }
         
         //checking for rock
 
-        if (userMove === "rock");
-        if (aiMove === "paper", "spock"){
-        winner.textContent = "You lose."
+        if (userMove === "rock"){ 
+        if (aiChoice === "scissors" && "lizzard"){
+             winner.textContent = "You Win"
+            userScore++;
+            updateScore();
             return;
         }else{
-            winner.textContent = "You win";
+             winner.textContent = "You Lose";
+            aiScore++;
+            updateScore();
             return;
-        };
-
+        }
+    }
         //checking for paper
 
-        if (userMove === "paper");
-        if (aiMove === "scissor", "lizzard"){
-        winner.textContent = "You lose."
+        if (userMove === "paper"){ 
+        if (aiChoice === "rock" && "spock"){
+             winner.textContent = "You Win."
+            userScore++;
+            updateScore();
             return;
         }else{
-            winner.textContent = "You win";
+             winner.textContent = "You Lose";
+            aiScore++;
+            updateScore();
             return;
-        };
+        }
+    }
 
         //checking for scissors
 
-        if (userMove === "scissors");
-        if (aiMove === "spock", "rock"){
-        winner.textContent = "You lose."
+        if (userMove === "scissors"){ 
+        if (aiChoice === "lizzard" && "paper"){
+             winner.textContent = "You Win."
+            userScore++;
+            updateScore();
             return;
         }else{
-            winner.textContent = "You win";
+             winner.textContent = "You Lose";
+            aiScore++;
+            updateScore();
             return;
-        };
+        }
+    }
 
         //checking for spock
 
-        if (userMove === "spock");
-        if (aiMove === "paper", "lizzard"){
-         winner.textContent = "You lose."
+        if (userMove === "spock"){ 
+        if (aiChoice === "scissors" && "rock"){
+             winner.textContent = "You Win."
+            userScore++;
+            updateScore();
             return;
         }else{
-            winner.textContent = "You win";
+                winner.textContent = "You Lose";
+            aiScore++;
+            updateScore();
             return;
-        };
+        }
+    }
 
          //checking for lizzard
 
-        if (userMove === "lizzard");
-        if (aiMove === "scissors", "rock"){
-        winner.textContent = "You lose."
+        if (userMove === "lizzard"){ 
+        if (aiChoice === "spock" && "paper"){
+             winner.textContent = "You Win."
+            userScore++;
+            updateScore();
             return;
         }else{
-             winner.textContent = "You win";
+             winner.textContent = "You Lose";
+            aiScore++;
+            updateScore();
              return;
         };
-    };     
+    };  
+};   
 
 // call inner functions
     startGame();

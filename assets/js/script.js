@@ -1,7 +1,7 @@
 // globalScope
 const game = ()=> {
-    let userScore = 0;
-    let aiScore = 0;
+    let userScore = "0";
+    let aiScore = "0";
  
 // function for changing intro screen to match screen and start game
 
@@ -55,10 +55,10 @@ const game = ()=> {
 };
 
 const updateScore = () => {
-    const userScore = document.querySelector(".user-score p");
-    const aiScore = document.querySelector(".ai-score p");
-    userScore.textContent = userScore;
-    aiScore.textContent = aiScore;
+    const uScore = document.querySelector(".user-score p");
+     const cScore = document.querySelector(".ai-score p");
+     uScore.textContent = userScore;
+     cScore.textContent = aiScore;
   };
 
     const compareMove =(userMove, aiChoice) =>{

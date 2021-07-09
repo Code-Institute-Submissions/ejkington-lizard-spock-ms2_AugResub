@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* game section */
 
 section{
     height: 100vh;
     background-color: rgb(82, 29, 29);
     font-family: sans-serif;
 }
+
+/* score for user and ai */ 
 
 .score {
     color: white;
@@ -27,6 +30,7 @@ section{
     font-size: 15px;
     padding: 8px;
 }
+/* intro screen before pressing start button */
 
 .intro{
     color: white;
@@ -52,6 +56,8 @@ section{
     background-color: darkgreen;
     border-radius: 5px;
 }
+
+/* match screen after pressing start button */
 
 .match{
     position: absolute;
@@ -94,4 +100,57 @@ div.fadeOut{
 div.fadeIn{
     opacity: 1;
     pointer-events: all;
+}
+
+
+
+/* for small screen sizes from 375px wide and down */
+
+@media screen and (max-width:375px) {
+.game {
+    height: 812px;
+    width: 375px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.match {
+    height: 812px;
+    width: 375px;
+    justify-content: center;
+}
+
+.winner {
+    text-align: center;
+}
+
+div.move {
+    width: 72%;
+    margin-right: 50px;
+}
+
+.winner {
+    width: 72%;
+}
+
+.user-move {
+    width: 50%;
+    margin: auto;
+}
+
+.ai-move {
+    width: 50%;
+    margin-right: 3px;
+}
+
+div.match {
+    left: 16%;
+}
+
+.options{
+    left: 1000%;
+}
+
 }

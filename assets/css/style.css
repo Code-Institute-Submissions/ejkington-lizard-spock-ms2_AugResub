@@ -148,7 +148,6 @@ div.move {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    
 }
 
 button {
@@ -156,5 +155,55 @@ button {
     margin-bottom: 5px;
     margin-top: 10px;
 }
+}
+
+/* for small screen sizes from 768px wide and down */
+
+@media screen and (max-width:768px) {
+
+    .game {
+        height: 812px;
+        width: 768px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    div.match {
+        width: 375px;
+        text-align: center;
+    }
+    
+    .winner {
+        text-align: center;
+    }
+    
+    div.move {
+        width: 72%;
+        margin-left: 50px;
+    }
+    
+    .user-move {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .ai-move {
+        width: 50%;
+        margin-right: 3px;
+    }
+    
+    .options {
+        
+        display: flex;
+    }
+    
+    button {
+        size: 100px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        width: 100px;
+    }
 
 }

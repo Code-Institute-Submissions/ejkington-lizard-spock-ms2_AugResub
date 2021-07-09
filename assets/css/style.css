@@ -116,10 +116,11 @@ h1 {
     text-align: center;
 }
 
-.match {
-    height: 812px;
+div.match {
+    top: 15%;
     width: 375px;
-    justify-content: center;
+    left: 0%;
+    text-align: center;
 }
 
 .winner {
@@ -128,11 +129,7 @@ h1 {
 
 div.move {
     width: 72%;
-    margin-right: 50px;
-}
-
-.winner {
-    width: 72%;
+    margin-left: 50px;
 }
 
 .user-move {
@@ -145,12 +142,19 @@ div.move {
     margin-right: 3px;
 }
 
-div.match {
-    left: 16%;
+.options {
+    width: 90%;
+    margin-right: 2px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.options{
-    left: 1000%;
+button {
+    size: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 }

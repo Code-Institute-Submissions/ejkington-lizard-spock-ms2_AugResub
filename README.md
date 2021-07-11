@@ -48,20 +48,21 @@ A simple game of rock paper scissors lizzard spock.
   - This section will allow the user to play the RPSLS game. The user will be able to easily see start button fading in to the game section ,  
   - Pressing the start button will fade in the game area and present the user with the choices presented with green buttons. 
   - An image of rock will be presented as default and will change accordingly to what button the user presses.
-  
-  ![Game]()
+  - __The home screen__
+   
+  ![start](start.png)
   
   - __The score section__
 
   - The score section is where the user will be able to see the score against the computer.
   
-  ![score](Link to scoreboard sectrion)
+  ![score](score.png)
  
   - __ The game section__
  
   - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
  
- ![math]
+ ![match](match.png)
   
   ## Testing 
   

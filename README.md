@@ -56,16 +56,22 @@ A simple game of rock paper scissors lizzard spock.
   - The score section is where the user will be able to see the score against the computer.
   
   ![score](Link to scoreboard sectrion)
+ 
+  - __ The game section__
+ 
+  - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
+ 
+ ![math]
   
   ## Testing 
   
   ### Validator Testing 
   
   - HTML
-    - No errors were returned when passing through the official [W3C validator](Link to picture of validator result)
+    - No errors were returned when passing through the official [W3C validator](htmlvalidator.png)
     
     - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](Link to css validator picture)
+    - No errors were found when passing through the official [(Jigsaw) validator](Cssvalidator.png)
   
      - JavaScript
       - No errors were found when passing through the official [Jshint validator](https://jshint.com/)

@@ -24,7 +24,10 @@ Rules
 (10.) Rock crushes Scissors (✊ > ✌)
 </div>
 
-## Features 
+
+ ![Responsive Mockup](Mockup.jpg)
+ 
+ ## Features 
 
 A simple game of rock paper scissors lizzard spock.
   * Showing images of the button pressed.
@@ -34,7 +37,7 @@ A simple game of rock paper scissors lizzard spock.
 
   ### Existing Features
 
-- __ Logo and Heading__
+ ## Start Screen and Heading
 
   - Scoreboard at the top of the screen.
   - Header text presenting what game is to be played.
@@ -46,7 +49,7 @@ A simple game of rock paper scissors lizzard spock.
   - Pressing the start button will fade in the game area and present the user with the choices presented with green buttons. 
   - An image of rock will be presented as default and will change accordingly to what button the user presses.
   
-  ![Game](Link to Buttons and logos of moves.)
+  ![Game]()
   
   - __The score section__
 

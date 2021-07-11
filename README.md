@@ -56,7 +56,7 @@ A simple game of rock paper scissors lizzard spock.
 
   - The score section is where the user will be able to see the score against the computer.
   
-  ![score](score.png)
+  ![score](Score.png)
  
   - __ The game section__
  

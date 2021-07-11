@@ -1,5 +1,10 @@
 # Rock paper scissors lizard Spock game
 
+
+[Link to Live Website](https://ejkington.github.io/lizard-spock-ms2/)
+
+[GitHub Repo](https://github.com/ejkington/lizard-spock-ms2)
+
 The game
 -------
 It is first used to settle a dispute about what to watch on TV between Sheldon and Raj in "The Lizard-Spock Expansion".

@@ -24,6 +24,88 @@ Rules
 (10.) Rock crushes Scissors (✊ > ✌)
 </div>
 
+## Features 
+
+A simple game of rock paper scissors lizzard spock.
+  * Showing images of the button pressed.
+  * Randomizes computers choice.
+  * Display text if user wins or lose.
+  * Score board.
+
+  ### Existing Features
+
+- __ Logo and Heading__
+
+  - Scoreboard at the top of the screen.
+  - Header text presenting what game is to be played.
+  - Start button
+
+  - __The Game Area__
+
+  - This section will allow the user to play the RPSLS game. The user will be able to easily see start button fading in to the game section ,  
+  - Pressing the start button will fade in the game area and present the user with the choices presented with green buttons. 
+  - An image of rock will be presented as default and will change accordingly to what button the user presses.
+  
+  ![Game](Link to Buttons and logos of moves.)
+  
+  - __The score section__
+
+  - The score section is where the user will be able to see the score against the computer.
+  
+  ![score](Link to scoreboard sectrion)
+  
+  ## Testing 
+  
+  ### Validator Testing 
+  
+  - HTML
+    - No errors were returned when passing through the official [W3C validator](Link to picture of validator result)
+    
+    - CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](Link to css validator picture)
+  
+     - JavaScript
+      - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+      - The following metrics were returned: 
+      - There are 9 functions in this file.
+      - Function with the largest signature take 2 arguments, while the median is 0.
+      - Largest function has 54 statements in it, while the median is 4.
+      - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
+  
+  ### Unfixed Bugs
+
+ -There is a bug where the game section will not resize according to the media queries on tablet size screens
+
+  
+  ## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://ejkington.github.io/lizard-spock-ms2/
+  
+  
+  ## Credits 
+
+  - Brian Machina my mentor for guidens in project planing.
+  - Slack community for help when i got stuck.
+  - Ed Dev, youtuber.
+
+  
+  ### Content 
+
+- The images in the game section were taken from https://github.com/JLChamberlain
+
+
+
+
+
+
+
+
+ 
 
 
 

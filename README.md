@@ -72,8 +72,8 @@ Scoreboard works  |  pressing a button        | score awarded to computer or use
 start game button   | Clicking the start button from home screen | Home page fades out and match page fades in with a small delay    | PASS
  
  
- # Bug where the expected outcome of a press would give a point to the loser.
- # Bug where rock would beat everything.
+ * Bug where the expected outcome of a press would give a point to the loser.
+ * Bug where rock would beat everything.
 
 
  

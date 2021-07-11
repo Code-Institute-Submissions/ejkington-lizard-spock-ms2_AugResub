@@ -43,7 +43,7 @@ A simple game of rock paper scissors lizzard spock.
   - Header text presenting what game is to be played.
   - Start button
 
- ##The Game Area
+ ## The Game Area
 
   - This section will allow the user to play the RPSLS game. The user will be able to easily see start button fading in to the game section ,  
   - Pressing the start button will fade in the game area and present the user with the choices presented with green buttons. 
@@ -52,13 +52,13 @@ A simple game of rock paper scissors lizzard spock.
    
   ![start](start.png)
   
-  ##The score section
+  ## The score section
 
   - The score section is where the user will be able to see the score against the computer.
   
   ![score](Score.png)
  
- ##The game section
+ ## The game section
  
   - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
  
@@ -82,12 +82,12 @@ A simple game of rock paper scissors lizzard spock.
       - Largest function has 54 statements in it, while the median is 4.
       - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
   
-  ###Unfixed Bugs
+  ### Unfixed Bugs
 
  -There is a bug where the game section will not resize according to the media queries on tablet size screens
 
   
-  ##Deployment
+  ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -97,15 +97,15 @@ A simple game of rock paper scissors lizzard spock.
 The live link can be found here - https://ejkington.github.io/lizard-spock-ms2/
   
   
-  ##Credits 
+  ## Credits 
 
   - Brian Machina my mentor for guidens in project planing.
   - Slack community for help when i got stuck.
   - Ed Dev, youtuber.
 
   
-  ###Content 
+  ### Content 
 
-- The images in the game section were taken from https://github.com/JLChamberlain
+- The images in the game section were taken from https://www.youtube.com/watch?v=T_ZvWkMgVFM&ab_channel=TeCoEd
 
 

@@ -11,17 +11,32 @@ section{
     font-family: sans-serif;
 }
 
+/* rules page */
+
 #rules-section {
     background-color: rgb(82, 29, 29);
     height: 100%;
 }
 .gamerules {
-    margin-left: 350px;
+    margin-left: 380px;
 }
 
 .gamerulestext {
     margin-left: 760px;
 }
+
+#rules {
+    color: green;
+    background-color: white;
+    height: 60px;
+    width: 155px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 850px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 /* score for user and ai */ 
 
 .score {
@@ -92,17 +107,6 @@ section{
 
 button{
     margin-left: 15px;
-}
-
-#rules {
-    color: green;
-    background-color: white;
-    height: 60px;
-    width: 155px;
-    font-size: 25px;
-    border-radius: 5px;
-    margin-left: 850px;
-    margin-top: 15px;
 }
 
 .user-move{

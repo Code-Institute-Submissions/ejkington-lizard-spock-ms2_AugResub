@@ -11,6 +11,17 @@ section{
     font-family: sans-serif;
 }
 
+#rules-section {
+    background-color: rgb(82, 29, 29);
+    height: 100%;
+}
+.gamerules {
+    margin-left: 350px;
+}
+
+.gamerulestext {
+    margin-left: 760px;
+}
 /* score for user and ai */ 
 
 .score {
@@ -83,6 +94,16 @@ button{
     margin-left: 15px;
 }
 
+#rules {
+    color: green;
+    background-color: white;
+    height: 60px;
+    width: 155px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 850px;
+    margin-top: 15px;
+}
 
 .user-move{
     transform: rotateY(180deg);

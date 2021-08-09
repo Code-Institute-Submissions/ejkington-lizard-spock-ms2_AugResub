@@ -191,48 +191,39 @@ button {
 @media screen and (max-width:768px) {
 
     .game {
-        height: 812px;
+        height: 865px;
         width: 768px;
     }
-    
-    h1 {
-        text-align: center;
-    }
-    
-    div.match {
-        width: 375px;
-        text-align: center;
-    }
-    
-    .winner {
-        text-align: center;
-    }
-    
-    div.move {
-        width: 72%;
-        margin-left: 50px;
-    }
-    
-    .user-move {
-        width: 50%;
-        margin: auto;
-    }
-    
-    .ai-move {
-        width: 50%;
-        margin-right: 3px;
-    }
-    
-    .options {
-        
-        display: flex;
-    }
-    
-    button {
-        size: 100px;
-        margin-bottom: 5px;
-        margin-top: 10px;
-        width: 100px;
+
+    .score {
+        height: 50px;
     }
 
+    .intro {
+        text-align: center;
+    }
+
+    .match {
+        right: 24%;
+        top: 20%;
+    }
+
+    .options {
+        justify-content: center;
+        position: fixed;
+        display: flex;
+        flex-flow: wrap;
+        right: 1px;
+    }
+
+    .spock {
+        margin-top: 5px;
+    }
+    #rules {
+        margin-left: 170px;
+    }
+
+    .move {
+        margin-right: 50px;
+    }
 }

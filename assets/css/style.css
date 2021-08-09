@@ -133,97 +133,53 @@ div.fadeIn{
 
 
 
-/* for small screen sizes from 375px wide and down */
+/* media queries */
 
-@media screen and (max-width:375px) {
-.game {
-    height: 812px;
-    width: 375px;
+/* for large to medium screens size 1200px wide and down 865 height*/
+@media screen and (max-width:1200px) {
+   
 }
 
-h1 {
-    text-align: center;
-}
+/* for medium screen sizes from 950px wide and down */
 
-div.match {
-    top: 15%;
-    width: 375px;
-    left: 0%;
-    text-align: center;
-}
+@media screen and (max-width:950px) {
+  
+    #rules {
+        margin-left: 400px;
+    }
 
-.winner {
-    text-align: center;
-}
+    div.fadeIn {
+        right: 230px;
+        margin-top: 10px;
+    }
 
-div.move {
-    width: 72%;
-    margin-left: 50px;
-}
-
-.user-move {
-    width: 50%;
-    margin: auto;
-}
-
-.ai-move {
-    width: 50%;
-    margin-right: 3px;
-}
-
-.options {
-    width: 90%;
-    margin-right: 2px;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-}
-
-button {
-    size: 30px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
-}
-
-/* for small screen sizes from 768px wide and down */
-
-@media screen and (max-width:768px) {
-
-    .game {
-        height: 865px;
-        width: 768px;
+    .winner {
+        font-size: 30px;
     }
 
     .score {
-        height: 50px;
+        height: 90px;
     }
 
-    .intro {
-        text-align: center;
+    .gamerulestext {
+        margin-left: 350px;
     }
 
-    .match {
-        right: 24%;
-        top: 20%;
+    .gamerules > img {
+        width: 450px;
     }
 
-    .options {
-        justify-content: center;
-        position: fixed;
-        display: flex;
-        flex-flow: wrap;
-        right: 1px;
+    .gamerules {
+        margin-left: 250px;
     }
+}
+/* for small screen sizes from 480px wide and down */
 
-    .spock {
-        margin-top: 5px;
-    }
-    #rules {
-        margin-left: 170px;
-    }
+@media screen and (max-width:480px) {
 
-    .move {
-        margin-right: 50px;
-    }
+}   
+/* for small screen sizes from 375px wide and down */
+
+@media screen and (max-width:375px) {
+
 }

@@ -30,7 +30,7 @@ Rules
 </div>
 
 
- ![Responsive Mockup](Mockup.jpg)
+ ![Responsive Mockup](assets/images/readme-images/Mockup.jpg)
  
  ## Features 
 
@@ -55,19 +55,19 @@ A simple game of rock paper scissors lizzard spock.
   - An image of rock will be presented as default and will change accordingly to what button the user presses.
   - __The home screen__
    
-  ![start](start.png)
+  ![start](assets/images/readme-images/start.png)
   
   ## The score section
 
   - The score section is where the user will be able to see the score against the computer.
   
-  ![score](Score.png)
+  ![score](assets/images/readme-images/Score.png)
  
  ## The game section
  
   - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
  
- ![match](match.png)
+ ![match](assets/images/readme-images/match.png)
   
   ## Testing 
  Test | Test action | Expected outcome      | Test outcome
@@ -86,10 +86,10 @@ start game button   | Clicking the start button from home screen | Home page fad
   ### Validator Testing 
   
   - HTML
-    - No errors were returned when passing through the official [W3C validator](htmlvalidator.png)
+    - No errors were returned when passing through the official [W3C validator](assets/images/readme-images/htmlvalidator.png)
     
     - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](Cssvalidator.png)
+    - No errors were found when passing through the official [(Jigsaw) validator](assets/images/readme-images/Cssvalidator.png)
   
      - JavaScript
       - No errors were found when passing through the official [Jshint validator](https://jshint.com/)

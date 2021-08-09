@@ -76,9 +76,9 @@ A simple game of rock paper scissors lizzard spock.
   - Page showing the rules of the game with a picture and explanation on what beats what.
   - Play game button at the bottom to direct user to main page.
  
- ![rules](assets/images/readme-images/rules.png
- ![rules](assets/images/readme-images/rules2.png
- ![rules](assets/images/readme-images/rules3.png
+ ![rules](assets/images/readme-images/rules.png <br>
+ ![rules](assets/images/readme-images/rules2.png <br>
+ ![rules](assets/images/readme-images/rules3.png <br>
  
   
   ## Testing 

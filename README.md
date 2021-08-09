@@ -55,6 +55,8 @@ A simple game of rock paper scissors lizzard spock.
   - This section will allow the user to play the RPSLS game. The user will be able to easily see start button fading in to the game section ,  
   - Pressing the start button will fade in the game area and present the user with the choices presented with green buttons. 
   - An image of rock will be presented as default and will change accordingly to what button the user presses.
+  - The reset button is at the top of the screen and will reset the game to homescreen
+  - The rules button will direct the user too the rules page displaying the rules of the game
   - __The home screen__
    
   ![start](assets/images/readme-images/start.png)
@@ -76,9 +78,9 @@ A simple game of rock paper scissors lizzard spock.
   - Page showing the rules of the game with a picture and explanation on what beats what.
   - Play game button at the bottom to direct user to main page.
  
- ![rules](assets/images/readme-images/rules.png <br>
- ![rules](assets/images/readme-images/rules2.png <br>
- ![rules](assets/images/readme-images/rules3.png <br>
+ ![rules](assets/images/readme-images/rules1.png) <br>
+ ![rules](assets/images/readme-images/rules2.png) <br>
+ ![rules](assets/images/readme-images/rules3.png) <br>
  
   
   ## Testing 

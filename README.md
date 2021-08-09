@@ -70,6 +70,16 @@ A simple game of rock paper scissors lizzard spock.
   - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
  
  ![match](assets/images/readme-images/match.png)
+ 
+ ## Rules 
+ 
+  - Page showing the rules of the game with a picture and explanation on what beats what.
+  - Play game button at the bottom to direct user to main page.
+ 
+ ![rules](assets/images/readme-images/rules.png
+ ![rules](assets/images/readme-images/rules2.png
+ ![rules](assets/images/readme-images/rules3.png
+ 
   
   ## Testing 
  Test | Test action | Expected outcome      | Test outcome

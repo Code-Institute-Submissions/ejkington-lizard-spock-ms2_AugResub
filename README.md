@@ -30,7 +30,7 @@ Rules
 </div>
 
 
- ![Responsive Mockup](Mockup.jpg)
+ ![Responsive Mockup](assets/images/readme-images/Mockup.jpg)
  
  ## Features 
 
@@ -46,7 +46,9 @@ A simple game of rock paper scissors lizzard spock.
 
   - Scoreboard at the top of the screen.
   - Header text presenting what game is to be played.
-  - Start button
+  - Start button.
+  - Reset button to return to start screen and reset the score to 0.
+  - Rules button to see the rules of the game.
 
  ## The Game Area
 
@@ -55,26 +57,42 @@ A simple game of rock paper scissors lizzard spock.
   - An image of rock will be presented as default and will change accordingly to what button the user presses.
   - __The home screen__
    
-  ![start](start.png)
+  ![start](assets/images/readme-images/start.png)
   
   ## The score section
 
   - The score section is where the user will be able to see the score against the computer.
   
-  ![score](Score.png)
+  ![score](assets/images/readme-images/Score.png)
  
  ## The game section
  
   - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
  
- ![match](match.png)
+ ![match](assets/images/readme-images/match.png)
+ 
+ ## Rules 
+ 
+  - Page showing the rules of the game with a picture and explanation on what beats what.
+  - Play game button at the bottom to direct user to main page.
+ 
+ ![rules](assets/images/readme-images/rules.png <br>
+ ![rules](assets/images/readme-images/rules2.png <br>
+ ![rules](assets/images/readme-images/rules3.png <br>
+ 
   
   ## Testing 
  Test | Test action | Expected outcome      | Test outcome
 ------- | ---------------- | ---------- | ---------:
 Correct images show up | Clicking the diffrent buttons | images changes according too button pressed | PASS
 Scoreboard works  |  pressing a button        | score awarded to computer or user       | PASS
-start game button   | Clicking the start button from home screen | Home page fades out and match page fades in with a small delay    | PASS
+Start game button   | Clicking the start button from home screen | Home page fades out and match page fades in with a small delay    | PASS
+Reset button    | Clicking the reset button  | directed back to startscreen and score resets    | PASS
+Rules button    | Clicking the rules button | user is directed to page with rules of the game    | PASS
+Play game button on rules page   | Clicking the play game button from rules page | returns user to homepage    | PASS
+ 
+ 
+ 
  
  
  * Bug where the expected outcome of a press would give a point to the loser.
@@ -86,12 +104,13 @@ start game button   | Clicking the start button from home screen | Home page fad
   ### Validator Testing 
   
   - HTML
-    - No errors were returned when passing through the official [W3C validator](htmlvalidator.png)
+    - No errors were returned when passing through the official [W3C validator](assets/images/readme-images/htmlvalidator.png)
     
-    - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](Cssvalidator.png)
+   - CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](assets/images/readme-images/Cssvalidator.png)
   
-     - JavaScript
+   - JavaScript
+      - esversion: 6 was used in this project
       - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
       - There are 9 functions in this file.
@@ -99,17 +118,31 @@ start game button   | Clicking the start button from home screen | Home page fad
       - Largest function has 54 statements in it, while the median is 4.
       - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
   
-  ### Unfixed Bugs
+  ## Adding and commiting files
 
- -There is a bug where the game section will not resize according to the media queries on tablet size screens
+  To add files to the repository take the following steps
+
+  In the command line type -
+        git add .  
+        git commit -m "This is being committed"
+        git push
+
+To add all new files or modified file use " ."  - To add a single file use the pathway to the file eg .index.html  or assets/css/style.css
+When committing make sure your comments are clear about what changes have been made. 
+Pushing will send your work to the repository
 
   
-  ## Deployment
+ ## Deployment 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The project was deployed with the following steps
+
+* Logged into git hub
+* Clicked the "Settings" button in the menu above the Repository.
+* Scroll down the Settings page to the "GitHub Pages" Section.
+* Under "Source", click the dropdown called "None" and then select "Master Branch".
+* The page will automatically refresh, and a link displaced.  It may take some time for the link to show the website.
+* If the page will not load go down to "template" under the "source" and select a template. 
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 The live link can be found here - https://ejkington.github.io/lizard-spock-ms2/
   
@@ -124,5 +157,5 @@ The live link can be found here - https://ejkington.github.io/lizard-spock-ms2/
   ### Content 
 
 - The images in the game section were taken from https://www.youtube.com/watch?v=T_ZvWkMgVFM&ab_channel=TeCoEd
-
+s
 

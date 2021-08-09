@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // globalScope
 const game = ()=> {
     let userScore = "0";
@@ -21,7 +23,7 @@ const game = ()=> {
         const options = document.querySelectorAll (".options button");
         const userMove = document.querySelector(".user-move");
         const aiMove = document.querySelector(".ai-move");
-        const choice = document.querySelectorAll(".move img");
+        
 
         
 
@@ -73,7 +75,7 @@ const updateScore = () => {
 
         if (userMove === "rock"){ 
         if (aiChoice === "scissors" || aiChoice === "lizzard"){
-             winner.textContent = "You Win"
+             winner.textContent = "You Win";
             userScore++;
             updateScore();
             return;
@@ -88,7 +90,7 @@ const updateScore = () => {
 
         if (userMove === "paper"){ 
         if (aiChoice === "rock" || aiChoice === "spock"){
-             winner.textContent = "You Win."
+             winner.textContent = "You Win.";
             userScore++;
             updateScore();
             return;
@@ -104,7 +106,7 @@ const updateScore = () => {
 
         if (userMove === "scissors"){ 
         if (aiChoice === "lizzard" || aiChoice === "paper"){
-             winner.textContent = "You Win."
+             winner.textContent = "You Win.";
             userScore++;
             updateScore();
             return;
@@ -120,7 +122,7 @@ const updateScore = () => {
 
         if (userMove === "spock"){ 
         if (aiChoice === "scissors" || aiChoice === "rock"){
-             winner.textContent = "You Win."
+             winner.textContent = "You Win.";
             userScore++;
             updateScore();
             return;
@@ -136,7 +138,7 @@ const updateScore = () => {
 
         if (userMove === "lizzard"){ 
         if (aiChoice === "spock" || aiChoice === "paper"){
-             winner.textContent = "You Win."
+          winner.textContent = "You Win.";
             userScore++;
             updateScore();
             return;
@@ -145,8 +147,8 @@ const updateScore = () => {
             aiScore++;
             updateScore();
              return;
-        };
-    };  
+        }
+    }  
 };   
 
 // call inner functions

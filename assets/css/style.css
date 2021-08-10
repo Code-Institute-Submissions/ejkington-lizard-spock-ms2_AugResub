@@ -179,14 +179,11 @@ div.fadeIn{
         text-align: center;
     }
 
-    #rules {
-        margin-left: 65px;
-    }
-
     .winner {
-        margin-left: 80px;
+        margin-left: 60px;
         font-size: 35px;
         text-align: center;
+        margin-top: 50px;
     }
 
     .user-move {
@@ -208,7 +205,12 @@ div.fadeIn{
     }
     
     #rules {
-        margin-left: 160px;
+        margin-left: 180px;
+    }
+
+    .match {
+        width: 1px;
+        height: 1px;
     }
 
     .gamerules {
@@ -225,7 +227,7 @@ div.fadeIn{
 @media screen and (max-width:375px) {
     
     #rules {
-        margin-left: 20px;
+        margin-left: 110px;
     }
 
     .options {
@@ -240,6 +242,7 @@ div.fadeIn{
 
     .winner {
         margin-left: 30px;
+        margin-top: 50px;
     }
 
     .gamerules > img {

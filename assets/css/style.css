@@ -176,6 +176,53 @@ div.fadeIn{
 /* for small screen sizes from 480px wide and down */
 
 @media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+
+    #rules {
+        margin-left: 65px;
+    }
+
+    .intro fadeOut {
+
+    }
+
+    .winner {
+        margin-left: 80px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .user-move {
+        height: 180px;
+        width: 280px;
+    }
+
+    .ai-move {
+        height: 180px;
+        width: 280px;
+    }
+
+    .move {
+        margin-left: 110px;
+    }
+
+    .options {
+        margin-left: 100px;
+    }
+    
+    #rules {
+        margin-left: 160px;
+    }
+
+    .gamerules {
+        margin-left: 20px;
+    }
+
+    .gamerulestext {
+        margin-left: 130px;
+    }
 
 }   
 /* for small screen sizes from 375px wide and down */

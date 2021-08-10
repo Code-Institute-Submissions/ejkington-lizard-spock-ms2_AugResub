@@ -76,7 +76,6 @@ section{
     width: 155px;
     height: 60px;
     background: none;
-    border: none;
     color: white;
     font-size: 25px;
     background-color: darkgreen;
@@ -224,5 +223,45 @@ div.fadeIn{
 /* for small screen sizes from 375px wide and down */
 
 @media screen and (max-width:375px) {
+    
+    #rules {
+        margin-left: 20px;
+    }
 
+    .options {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .move {
+        margin-left: 25px;
+    }
+
+    .winner {
+        margin-left: 30px;
+    }
+
+    .gamerules > img {
+        width: 340px;
+    }
+    
+    .gamerulestext {
+        margin-left: 65px;
+    }
+
+    .match {
+        width: 375px;
+        left: -15px;
+    }
+
+    .user-move {
+        width: 160px;
+        height: 150px;
+    }
+
+    .ai-move {
+        width: 160px;
+        height: 150px;
+    }
 }

@@ -143,7 +143,7 @@ div.fadeIn{
 
 @media screen and (max-width:950px) {
   
-    #rules {
+    .rules {
         margin-left: 400px;
     }
 
@@ -154,6 +154,7 @@ div.fadeIn{
 
     .winner {
         font-size: 30px;
+        margin-left: 160px;
     }
 
     .score {
@@ -170,6 +171,18 @@ div.fadeIn{
 
     .gamerules {
         margin-left: 250px;
+    }
+
+    .match {
+        width: 1px;
+    }
+
+    .user-move {
+        margin-left: 425px;
+    }
+
+    .options {
+        margin-left: 225px;
     }
 }
 /* for small screen sizes from 480px wide and down */
@@ -204,7 +217,7 @@ div.fadeIn{
         margin-left: 100px;
     }
     
-    #rules {
+    .rules {
         margin-left: 180px;
     }
 
@@ -226,7 +239,7 @@ div.fadeIn{
 
 @media screen and (max-width:375px) {
     
-    #rules {
+    .rules {
         margin-left: 110px;
     }
 

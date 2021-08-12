@@ -27,10 +27,10 @@ Rules
 (8.) Paper disproves Spock (✋ > 🖖)<br>
 (9.) Spock vaproizes Rock (🖖 > ✊)<br>
 (10.) Rock crushes Scissors (✊ > ✌)
-</div>
+</div><br>
 
 
- ![Responsive Mockup](assets/images/readme-images/Mockup.jpg)
+ ![Responsive Mockup](assets/images/readme-images/Mockup.png)
  
  ## Features 
 
@@ -38,7 +38,7 @@ A simple game of rock paper scissors lizzard spock.
   * Showing images of the button pressed.
   * Randomizes computers choice.
   * Display text if user wins or lose.
-  * Score board.
+  * Scoreboard.
 
   ### Existing Features
 
@@ -57,19 +57,14 @@ A simple game of rock paper scissors lizzard spock.
   - An image of rock will be presented as default and will change accordingly to what button the user presses.
   - The reset button is at the top of the screen and will reset the game to homescreen
   - The rules button will direct the user too the rules page displaying the rules of the game
-  - __The home screen__
+  
    
   ![start](assets/images/readme-images/start.png)
   
-  ## The score section
-
-  - The score section is where the user will be able to see the score against the computer.
-  
-  ![score](assets/images/readme-images/Score.png)
- 
  ## The game section
  
   - The match section is where the game happens. buttons for each choice and the images of what the user choose and what the computer has choosen
+  - score showing above the user and ai choosen move. <br>
  
  ![match](assets/images/readme-images/match.png)
  

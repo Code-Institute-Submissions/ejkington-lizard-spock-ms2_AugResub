@@ -193,10 +193,9 @@ div.fadeIn {
     }
 
     .winner {
-        margin-left: 60px;
+        margin-left: 85px;
         text-align: center;
         margin-top: 50px;
-        margin-left: 80px;
     }
 
     section {
@@ -204,13 +203,13 @@ div.fadeIn {
     }
 
     .user-move {
-        height: 180px;
+        height: 160px;
         width: 280px;
         margin-left: 0px;
     }
 
     .ai-move {
-        height: 180px;
+        height: 160px;
         width: 280px;
     }
 
@@ -225,7 +224,7 @@ div.fadeIn {
     }
 
     .rules {
-        margin-left: 180px;
+        margin-left: 60px;
     }
 
     .match {
@@ -242,6 +241,10 @@ div.fadeIn {
         color: white;
     }
 
+    .score {
+        height: 60px;
+    }
+
 }
 
 /* for small screen sizes from 375px wide and down */
@@ -249,7 +252,11 @@ div.fadeIn {
 @media screen and (max-width:375px) {
 
     .rules {
-        margin-left: 110px;
+        margin-left: 120px;
+    }
+
+    .score {
+        margin-top: 50px;
     }
 
     .options {
@@ -259,12 +266,17 @@ div.fadeIn {
     }
 
     .move {
-        margin-left: 25px;
+        margin-left: 420px;
+        margin-top: 0px;
     }
 
     .winner {
         margin-left: 30px;
         margin-top: 50px;
+    }
+
+    .intro {
+        margin-top: 100px;
     }
 
     .gamerules>img {

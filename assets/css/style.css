@@ -25,7 +25,7 @@ section{
     margin-left: 760px;
 }
 
-#rules {
+.rules {
     color: green;
     background-color: white;
     height: 60px;
@@ -264,6 +264,7 @@ div.fadeIn{
     
     .gamerulestext {
         margin-left: 65px;
+        color: white;
     }
 
     .match {
@@ -279,5 +280,14 @@ div.fadeIn{
     .ai-move {
         width: 160px;
         height: 150px;
+        margin-right: 420px;
+    }
+
+    .top-buttons {
+
+    }
+
+    section {
+        height: 900px;
     }
 }

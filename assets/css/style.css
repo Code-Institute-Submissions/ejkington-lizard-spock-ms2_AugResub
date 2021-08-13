@@ -194,14 +194,19 @@ div.fadeIn{
 
     .winner {
         margin-left: 60px;
-        font-size: 35px;
         text-align: center;
         margin-top: 50px;
+        margin-left: 80px;
+    }
+
+    section {
+        height: 900px;
     }
 
     .user-move {
         height: 180px;
         width: 280px;
+        margin-left: 0px;
     }
 
     .ai-move {
@@ -211,10 +216,12 @@ div.fadeIn{
 
     .move {
         margin-left: 110px;
+        margin-top: 80px;
     }
 
     .options {
         margin-left: 100px;
+        margin-top: 100px;
     }
     
     .rules {
@@ -232,6 +239,7 @@ div.fadeIn{
 
     .gamerulestext {
         margin-left: 130px;
+        color: white;
     }
 
 }   

@@ -224,7 +224,7 @@ div.fadeIn {
     }
 
     .rules {
-        margin-left: 60px;
+        margin-left: 170px;
     }
 
     .match {
@@ -245,6 +245,9 @@ div.fadeIn {
         height: 60px;
     }
 
+    .top-buttons {
+        
+    }
 }
 
 /* for small screen sizes from 375px wide and down */

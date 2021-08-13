@@ -263,11 +263,12 @@ div.fadeIn {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
+        margin-top: 10px;
     }
 
     .move {
-        margin-left: 420px;
-        margin-top: 0px;
+        margin-top: 20px;
+        margin-left: 30px;
     }
 
     .winner {
@@ -301,10 +302,14 @@ div.fadeIn {
     .ai-move {
         width: 160px;
         height: 150px;
-        margin-right: 420px;
+        margin-left: 45px;
     }
 
     section {
         height: 900px;
+    }
+
+    div.fadeIn {
+        margin-top: 50px;
     }
 }

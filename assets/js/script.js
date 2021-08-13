@@ -38,7 +38,7 @@ const game = () => {
                 setTimeout(() => {
                     compareMove(this.textContent, aiChoice);
 
-                    // updating image
+                    // updating image for both user and ai 
 
                     userMove.src = `./assets/images/${this.textContent}.png`;
                     aiMove.src = `./assets/images/${aiChoice}.png`;

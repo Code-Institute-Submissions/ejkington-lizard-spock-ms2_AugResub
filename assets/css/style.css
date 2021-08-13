@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* game section */
 
-section{
+section {
     height: 100vh;
     background-color: rgb(82, 29, 29);
     font-family: sans-serif;
@@ -17,12 +18,14 @@ section{
     background-color: rgb(82, 29, 29);
     height: 100%;
 }
+
 .gamerules {
     margin-left: 380px;
 }
 
 .gamerulestext {
     margin-left: 760px;
+    color: white;
 }
 
 .rules {
@@ -37,7 +40,7 @@ section{
     margin-bottom: 30px;
 }
 
-/* score for user and ai */ 
+/* score for user and ai */
 
 .score {
     color: white;
@@ -47,7 +50,7 @@ section{
     align-items: center;
 }
 
-.score h2{
+.score h2 {
     font-size: 25px;
 }
 
@@ -56,9 +59,10 @@ section{
     font-size: 15px;
     padding: 8px;
 }
+
 /* intro screen before pressing start button */
 
-.intro{
+.intro {
     color: white;
     height: 50vh;
     display: flex;
@@ -68,11 +72,12 @@ section{
     transition: opacity 1s ease;
 }
 
-.intro h1{
+.intro h1 {
     font-size: 55px;
 }
 
-.intro button, .match button{
+.intro button,
+.match button {
     width: 155px;
     height: 60px;
     background: none;
@@ -84,21 +89,21 @@ section{
 
 /* match screen after pressing start button */
 
-.match{
+.match {
     position: absolute;
     top: 30%;
     left: 28%;
-    transform: translate(-50, -50);
     transition: opacity 1s ease 1s;
 }
 
-.winner{
+.winner {
     color: white;
     text-align: center;
     font-size: 60px;
 }
 
-.move, .options{
+.move,
+.options {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,41 +113,34 @@ section{
     margin-top: 50px;
 }
 
-button{
+button {
     margin-left: 15px;
 }
 
-.user-move{
+.user-move {
     transform: rotateY(180deg);
 }
 
 /* fades out intro screen when pressing start button */
 
-div.fadeOut{
+div.fadeOut {
     opacity: 0;
     pointer-events: none;
 }
 
 /* fades in match screen */
 
-div.fadeIn{
+div.fadeIn {
     opacity: 1;
     pointer-events: all;
 }
 
-
-
 /* media queries */
-
-/* for large to medium screens size 1200px wide and down 865 height*/
-@media screen and (max-width:1200px) {
-   
-}
 
 /* for medium screen sizes from 950px wide and down */
 
 @media screen and (max-width:950px) {
-  
+
     .rules {
         margin-left: 400px;
     }
@@ -158,14 +156,15 @@ div.fadeIn{
     }
 
     .score {
-        height: 90px;
+        height: 5px;
     }
 
     .gamerulestext {
         margin-left: 350px;
+        color: white;
     }
 
-    .gamerules > img {
+    .gamerules>img {
         width: 450px;
     }
 
@@ -185,6 +184,7 @@ div.fadeIn{
         margin-left: 225px;
     }
 }
+
 /* for small screen sizes from 480px wide and down */
 
 @media screen and (max-width:480px) {
@@ -223,7 +223,7 @@ div.fadeIn{
         margin-left: 100px;
         margin-top: 100px;
     }
-    
+
     .rules {
         margin-left: 180px;
     }
@@ -242,11 +242,12 @@ div.fadeIn{
         color: white;
     }
 
-}   
+}
+
 /* for small screen sizes from 375px wide and down */
 
 @media screen and (max-width:375px) {
-    
+
     .rules {
         margin-left: 110px;
     }
@@ -266,10 +267,10 @@ div.fadeIn{
         margin-top: 50px;
     }
 
-    .gamerules > img {
+    .gamerules>img {
         width: 340px;
     }
-    
+
     .gamerulestext {
         margin-left: 65px;
         color: white;
@@ -289,10 +290,6 @@ div.fadeIn{
         width: 160px;
         height: 150px;
         margin-right: 420px;
-    }
-
-    .top-buttons {
-
     }
 
     section {

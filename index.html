@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="keywords" content="HTML, CSS, JavaScript, RPSLS">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <meta name="author" content="Niklas Färeborg">
-      <title>Rock,Paper,Scissors,Lizzard,Spock</title>
-   </head>
-   <body>
-      <!--Scoreboard section-->
-      <section class="game">
-         
-         <div class="top-buttons">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, RPSLS">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="author" content="Niklas Färeborg">
+    <title>Rock,Paper,Scissors,Lizzard,Spock</title>
+</head>
+
+<body>
+    <!--Scoreboard section-->
+    <section class="game">
+
+        <div class="top-buttons">
             <a href="rules.html">
-               <button class="rules">Rules</button>
+                <button class="rules">Rules</button>
             </a>
             <a href="index.html">
-               <button class="rules">Reset</button>
+                <button class="rules">Reset</button>
             </a>
-         </div>
-         <div class="score">
+        </div>
+        <div class="score">
             <div class="user-score">
-               <h2>You!</h2>
-               <p>0</p>      
+                <h2>You!</h2>
+                <p>0</p>
             </div>
             <div class="ai-score">
-               <h2>AI!</h2>
-               <p>0</p>
+                <h2>AI!</h2>
+                <p>0</p>
             </div>
-         </div>
-         <!--Intro screen before pressing Start button-->
-         <div class="intro">
+        </div>
+        <!--Intro screen before pressing Start button-->
+        <div class="intro">
             <h1>Rock Paper Scissor Lizzard Spock</h1>
             <button>Start!</button>
-         </div>
-         <div class="match fadeOut">
+        </div>
+        <div class="match fadeOut">
             <!-- Match section -->
             <h2 class="winner">Choose Your Move!</h2>
             <div class="move">
-               <img class="user-move" src="./assets/images/rock.png" alt="rock">
-               <img class="ai-move" src="./assets/images/rock.png" alt="rock">
+                <img class="user-move" src="./assets/images/rock.png" alt="rock">
+                <img class="ai-move" src="./assets/images/rock.png" alt="rock">
             </div>
             <div class="options">
-               <button class="rock">rock</button>
-               <button class="paper">paper</button>
-               <button class="scissors">scissors</button>
-               <button class="lizzard">lizzard</button>
-               <button class="spock">spock</button>
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissors">scissors</button>
+                <button class="lizzard">lizzard</button>
+                <button class="spock">spock</button>
             </div>
-         </div>
-      </section>
-      <!--JavaScript-->
-      <script src="assets/js/script.js"></script>
-   </body>
+        </div>
+    </section>
+    <!--JavaScript-->
+    <script src="assets/js/script.js"></script>
+</body>
+
 </html>

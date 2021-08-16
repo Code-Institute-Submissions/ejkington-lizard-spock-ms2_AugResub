@@ -78,7 +78,7 @@ section {
 
 .intro button,
 .match button {
-    width: 155px;
+    width: 8ch;
     height: 60px;
     background: none;
     color: white;
@@ -188,11 +188,13 @@ div.fadeIn {
     div.fadeIn {
         right: 260px;
         margin-top: 10px;
+        width: 1px;
     }
 
     .winner {
-        font-size: 30px;
-        margin-left: 190px;
+        font-size: 50px;
+        margin-left: 150px;
+        margin-top: 20px;
     }
 
     .score {
@@ -213,7 +215,8 @@ div.fadeIn {
     }
 
     .match {
-        width: 1px;
+        width: 50px;
+        left: 25%;
     }
 
     .user-move {
@@ -221,7 +224,14 @@ div.fadeIn {
     }
 
     .options {
-        margin-left: 225px;
+        position: absolute;
+        margin-top: 20px;
+        right: 50px;
+        left: 200px;
+    }
+
+    section {
+        height: 1150px;
     }
 }
 
@@ -233,13 +243,13 @@ div.fadeIn {
     }
 
     .winner {
-        margin-left: 85px;
+        margin-left: 45px;
         text-align: center;
         margin-top: 50px;
     }
 
     section {
-        height: 900px;
+        height: 1100px;
     }
 
     .user-move {
@@ -254,13 +264,15 @@ div.fadeIn {
     }
 
     .move {
-        margin-left: 110px;
-        margin-top: 80px;
+        margin-left: 130px;
+        margin-top: 20px;
     }
 
     .options {
-        margin-left: 100px;
-        margin-top: 100px;
+        margin-left: 40px;
+        margin-top: 50px;
+        flex-direction: column;
+        left: 85px;
     }
 
     .rules {
@@ -285,8 +297,8 @@ div.fadeIn {
         height: 60px;
     }
 
-    .top-buttons {
-        
+    div.fadeIn {
+        left: 25%;
     }
 }
 
@@ -305,13 +317,13 @@ div.fadeIn {
     .options {
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        left: 60px;
         margin-top: 10px;
     }
 
     .move {
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 100px;
     }
 
     .winner {
@@ -346,10 +358,6 @@ div.fadeIn {
         width: 160px;
         height: 150px;
         margin-left: 45px;
-    }
-
-    section {
-        height: 900px;
     }
 
     div.fadeIn {

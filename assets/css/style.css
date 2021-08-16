@@ -137,6 +137,46 @@ div.fadeIn {
 
 /* media queries */
 
+/* for big screen sizes from 1200px wide and down */
+
+@media screen and (max-width:1200px) {
+    .rules {
+        margin-left: 525px;
+    }
+
+    .winner {
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .move {
+        justify-content: center;
+    }
+
+    section {
+        height: 1000px;
+    }
+
+    .options {
+        margin-top: 90px;
+    }
+
+    div.fadeIn {
+        left: 280px;
+        position: absolute;
+        width: 656px;
+    }
+
+    .gamerulestext {
+        margin-left: 470px;
+        color: white;
+    }
+
+    .gamerules>img {
+        width: 450px;
+    }
+}
+
 /* for medium screen sizes from 950px wide and down */
 
 @media screen and (max-width:950px) {

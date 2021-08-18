@@ -137,7 +137,7 @@ div.fadeIn {
 
 /* media queries */
 
-/* for big screen sizes from 1200px wide and down */
+/* for medium too big screen sizes from 1200px wide and down */
 
 @media screen and (max-width:1200px) {
     .rules {
@@ -195,6 +195,8 @@ div.fadeIn {
         font-size: 50px;
         margin-left: 150px;
         margin-top: 20px;
+        height: 100px;
+        width: 100px;
     }
 
     .score {
@@ -226,8 +228,7 @@ div.fadeIn {
     .options {
         position: absolute;
         margin-top: 20px;
-        right: 50px;
-        left: 200px;
+        left: -120px;
     }
 
     section {
@@ -243,6 +244,8 @@ div.fadeIn {
     }
 
     .winner {
+        height: 100px;
+        width: 160px;
         margin-left: 45px;
         text-align: center;
         margin-top: 50px;
@@ -265,14 +268,14 @@ div.fadeIn {
 
     .move {
         margin-left: 130px;
-        margin-top: 20px;
+        margin-top: 80px;
     }
 
     .options {
         margin-left: 40px;
         margin-top: 50px;
         flex-direction: column;
-        left: 85px;
+        left: 25px;
     }
 
     .rules {
@@ -291,6 +294,10 @@ div.fadeIn {
     .gamerulestext {
         margin-left: 130px;
         color: white;
+    }
+
+    .gamerules > img {
+        width: 440px;
     }
 
     .score {
@@ -317,18 +324,17 @@ div.fadeIn {
     .options {
         display: flex;
         flex-direction: column;
-        left: 60px;
-        margin-top: 10px;
+        left: 1px;
     }
 
     .move {
-        margin-top: 20px;
+        margin-top: 120px;
         margin-left: 100px;
     }
 
     .winner {
-        margin-left: 30px;
-        margin-top: 50px;
+        height: 100px;
+        width: 100px;
     }
 
     .intro {
@@ -357,7 +363,6 @@ div.fadeIn {
     .ai-move {
         width: 160px;
         height: 150px;
-        margin-left: 45px;
     }
 
     div.fadeIn {
